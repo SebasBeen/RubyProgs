@@ -1,4 +1,4 @@
-def fact(a, b)
+def pyth(a, b)
 s = Math.sqrt(a**2 + b**2)
 x = Math.atan2(a, b)
 y = Math.atan2(b, a)
@@ -8,4 +8,4 @@ else
 return "fout"
 end
 end 
-puts fact(4, 4)
+puts pyth(ARGV[0].to_i, ARGV[1].to_i)
